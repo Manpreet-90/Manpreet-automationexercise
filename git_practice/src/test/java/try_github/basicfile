@@ -1,0 +1,11 @@
+public classs abc
+{
+
+
+void show()
+{
+System.out.println("cat");
+}
+
+
+}
