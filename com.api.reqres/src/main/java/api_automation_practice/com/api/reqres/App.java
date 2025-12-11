@@ -1,0 +1,13 @@
+package api_automation_practice.com.api.reqres;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
+}

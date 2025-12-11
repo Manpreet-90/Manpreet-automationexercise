@@ -1,0 +1,25 @@
+<configuration status="WARN">
+<appenders>
+<console name="Console" target="SYSTEM_OUT" >
+<PatternLayout pattern="%d(HH:mm:ss:SSS) [%t] %-5level %logger{36} - %msg%n">
+
+</PatternLayout>
+
+</console>
+
+<file name="file" fileName="logs/test.log">
+
+<PatternLayout pattern="%d(HH:mm:ss:SSS) [%t] %-5level %logger{36} - %msg%n">
+
+</PatternLayout>
+
+
+</file>
+</appenders>
+<loggers>
+<Root level="info">
+<AppenderRef ref="Console"/>
+<AppenderRef ref="file"/>
+</Root>
+</loggers>
+</configuration>
