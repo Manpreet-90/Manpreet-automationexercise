@@ -28,7 +28,7 @@ public class PostrequestwithPojo {
      basePath = "/api";
 	//Response response=RestAssured.given().header("Content-Type","application/json").header("x-api-key","reqres_0e4a62a7f41343458017e3b978503383").body("{ \"email\": \"eve.holt@reqres.in\",\"password\": \"cityslicka\" }").post("/login");
 	
-     Response response=given().baseUri("https://reqres.in")   //hardcoding not good
+     Response response=given().baseUri("https://9huyy")   //hardcoding not good
     		 .header("Content-Type","application/json").header("x-api-key","reqres_0e4a62a7f41343458017e3b978503383")
     		 .body("{ \"email\": \"eve.holt@reqres.in\",\"password\": \"cityslicka\" }")
     		 .post("/login");
